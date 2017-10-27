@@ -1,0 +1,2 @@
+select id, time, kernel, matrix, global, local from tpact_pagerank_results 
+ where statistic = 'RAW_RESULT' and experiment_id = '2d6d70c08dac34fb823b0b49b89c44caf13b0285-2017-03-08T00:13+00:00' and correct='correct';
